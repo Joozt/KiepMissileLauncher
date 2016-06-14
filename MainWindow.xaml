@@ -1,0 +1,14 @@
+﻿<Window x:Class="KiepMissileLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Schieter" Height="546" Width="687"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None" FontFamily="Verdana" FontWeight="Bold" Background="White" Foreground="Black" Icon="Icon.ico">
+    <Grid>
+        <Button Content="Q" Height="150" Width="150" Margin="0,0,310,310" Name="btnQuit" FontFamily="Wingdings 3" FontSize="120" FontWeight="Bold" IsTabStop="False" Click="btnQuit_Click" Background="#FFD4D0C8" Foreground="Black" />
+        <Button Content="#" Height="150" Width="150" Margin="0,0,0,310" Name="btnUp" FontFamily="Wingdings 3" FontSize="120" FontWeight="Bold" PreviewMouseDown="btnUp_PreviewMouseDown" PreviewMouseUp="btnUp_PreviewMouseUp" IsTabStop="False" Background="#FFD4D0C8" Foreground="Black" />
+        <Button Content="$" Height="150" Width="150" Name="btnDown" FontFamily="Wingdings 3" FontSize="120" FontWeight="Bold" PreviewMouseDown="btnDown_PreviewMouseDown" PreviewMouseUp="btnDown_PreviewMouseUp" IsTabStop="False" Background="#FFD4D0C8" Foreground="Black" />
+        <Button Content="!" Height="150" Width="150" Margin="0,0,310,0" Name="btnLeft" FontFamily="Wingdings 3" FontSize="120" FontWeight="Bold" IsTabStop="False" PreviewMouseDown="btnLeft_PreviewMouseDown" PreviewMouseUp="btnLeft_PreviewMouseUp" Background="#FFD4D0C8" Foreground="Black" />
+        <Button Content="&quot;" Height="150" Width="150" Margin="310,0,0,0" Name="btnRight" FontFamily="Wingdings 3" FontSize="120" FontWeight="Bold" IsTabStop="False" PreviewMouseDown="btnRight_PreviewMouseDown" PreviewMouseUp="btnRight_PreviewMouseUp" Background="#FFD4D0C8" Foreground="Black" />
+        <Button Content="Launch!" Height="150" Width="460" Margin="0,310,0,0" Name="btnLaunch" FontSize="72" IsTabStop="False" PreviewMouseDown="btnLaunch_PreviewMouseDown" PreviewMouseUp="btnLaunch_PreviewMouseUp" Background="#FFD4D0C8" Foreground="Black" />
+    </Grid>
+</Window>
