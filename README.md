@@ -11,3 +11,5 @@ This application uses a [low level keyboard hook](LowLevelKeyboardHook.cs), in o
 ![Screenshot](Screenshot.png "Screenshot")
 
 ![USB missile launcher](MissileLauncher.jpg "USB missile launcher")
+
+See [KiepProjects](https://github.com/Joozt/KiepProjects) for an overview of all Kiep projects.
